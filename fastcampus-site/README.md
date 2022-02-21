@@ -31,4 +31,10 @@ $ npm run deploy
 ## 테스트
 
 - 유닛 테스트 (코드상으로 기능을 점검, 로직 파악)
+- Jest
+
+```
+npm run test
+```
+
 - E2E 테스트 (end to end test. 실제 동작을 바탕으로 기능을 테스트)
