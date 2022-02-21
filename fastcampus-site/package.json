@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "jest --watch"
+    "test": "jest --watch",
+    "docker": "docker build . -t fastcampus-site",
+    "start:production": "docker run -p 3000:3000 fastcampus-site"
   },
   "dependencies": {
     "babel-jest": "27.5.1",
